@@ -1,4 +1,4 @@
-[![Meteor Icon](http://icon.meteor.com/package/useraccounts:iron-routing)](https://atmospherejs.com/useraccounts/iron-routing)
+[![Meteor Icon](http://icon.meteor.com/package/sebl29:useraccounts-iron-routing)](https://atmospherejs.com/useraccounts/iron-routing)
 
 # Iron Router add-on for User Accounts
 
@@ -118,7 +118,7 @@ in this case, any field different from `template` and `layoutTemplate` will be i
 
 ## Content Protection
 
-useraccounts:iron-routing package come with an Iron Router plugin called `ensureSignedIn` which permits to prompt for the sign in form for the pages requiring the user to be signed in.
+sebl29:useraccounts-iron-routing package come with an Iron Router plugin called `ensureSignedIn` which permits to prompt for the sign in form for the pages requiring the user to be signed in.
 It behaves nicely letting the required route path inside the address bar and bringing you back to the same route once logged in.
 
 **Please note that a fake version of `ensureSignedIn` is also available on server-side to allow for shared routing files, but there's no way to check whether a user is logged in or not on a server-side route!**

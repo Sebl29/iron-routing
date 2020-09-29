@@ -7,25 +7,25 @@
 'use strict';
 
 Package.describe({
-  name: 'useraccounts:iron-routing',
+  name: 'sebl29:useraccounts-iron-routing',
   summary: 'UserAccounts package providing routes configuration capability via iron:router.',
-  version: '1.14.2',
+  version: '1.15.0',
   git: 'https://github.com/meteor-useraccounts/iron-routing.git'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.0.3');
+  api.versionsFrom('1.11.1');
 
   api.use([
     'check',
     'iron:router',
     'underscore',
-    'useraccounts:core',
+    'sebl29:useraccounts-core',
   ], ['client', 'server']);
 
   api.imply([
-    'useraccounts:core@1.14.2',
-    'iron:router@1.0.9',
+    'sebl29:useraccounts-core@1.15.0',
+    'iron:router@1.1.2',
   ], ['client', 'server']);
 
   api.addFiles([
