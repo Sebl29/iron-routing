@@ -18,7 +18,7 @@ Package.onUse(function(api) {
 
   api.use([
     'check',
-    'iron:router',
+    'iron:router@1.1.2',
     'underscore',
     'sebl29:useraccounts-core',
   ], ['client', 'server']);
